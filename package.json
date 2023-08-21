@@ -1,7 +1,9 @@
 {
   "name": "customizable-virtualized-list",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,5 +41,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendenizdeniz/customizable-virtualized-list.git"
+  },
+  "keywords": [
+    "customizable",
+    "virtualized",
+    "list"
+  ],
+  "author": "denizcca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendenizdeniz/customizable-virtualized-list/issues"
+  },
+  "homepage": "https://github.com/bendenizdeniz/customizable-virtualized-list#readme"
 }

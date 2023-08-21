@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { List } from './Components/ObservedList/List/List';
 
 function App() {
+  const arrayWithValues: JSX.Element[] = Array.from({ length: 1000 }, (element, index) => <div>Element {!element}</div>);
+  const contentContainerStyle: React.CSSProperties = {
+    border: '3px solid #e687d6',
+    backgroundColor: '#f7bced',
+    borderRadius: '5px'
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appContainer">
+      <List array={arrayWithValues} style={contentContainerStyle} />
     </div>
   );
 }
