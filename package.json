@@ -43,22 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bendenizdeniz/customizable-virtualized-list.git"
-  },
-  "keywords": [
-    "customizable",
-    "virtualized",
-    "list"
-  ],
-  "author": "denizcca",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bendenizdeniz/customizable-virtualized-list/issues"
-  },
-  "homepage": "https://github.com/bendenizdeniz/customizable-virtualized-list#readme"
+  }
 }
