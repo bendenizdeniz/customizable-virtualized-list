@@ -21,8 +21,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "clean": "rimraf dist/",
+    "copy-files": "copyfiles -u 1 src/**/*.html src/**/*.css dist/",
+    "build": "yarn clean && tsc && yarn copy-files",
     "start": "react-scripts start",
-    "build": "tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^5.0.1"
   }
 }
