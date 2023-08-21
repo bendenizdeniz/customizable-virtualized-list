@@ -23,6 +23,12 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    // "src/**/*.css"
+  ],
+  "plugins": [
+    {
+      "name": "typescript-plugin-css-modules"
+    }
   ]
 }
