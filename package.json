@@ -4,6 +4,8 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "dist/Components/index.js",
+  "types": "dist/Components/index.d.ts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
